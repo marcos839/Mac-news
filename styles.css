@@ -6,23 +6,31 @@
 }
 
 body {
-    background-color: white;
-    padding-top: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
+    background-color: #383535;
     padding-bottom: 100px;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
-.salários {
-    height: 500px;
-}
-
-.text1 {
+button {
+    height: 100px;
+    width: 1200px;
+    background-color: whitesmoke;
+    color: #333333;
+    font-size: large;
+    font-weight: 900;
+    border-radius: 10px;
     margin-top: 20px;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: inset;
 }
 
-.text2 {
-    margin-top: 50px;
+button:hover {
+    background-color: #dfdede;
+    transform: translateY(-5px);
 }
 
 .logo {
@@ -30,22 +38,30 @@ body {
     border-radius: 100%;
 }
 
-.Pleno {
-    margin-top: 30px;
+.pesquise {
+    border-radius: 10px;
+    width: 600px;
+    height: 30px;
+    box-sizing: 30px;
+    position: absolute;
+    top: 8%;
+    right: 10%;
 }
 
-.Sênior {
-    margin-top: 30px;
+.search {
+    background-color: rgb(56, 56, 56);
+    color: white;
+    height: 30px;
+    width: 70px;
+    position: absolute;
+    top: 8%;
+    right: 4%;
+    border-radius: 15%;
+    transition: 0.5s;
+    cursor: pointer;
 }
 
-.history {
-    margin-top: 30px;
-}
-
-.history2 {
-    margin-top: 30px;
-}
-
-.Frontend {
-    margin-top: 30px;
+.search:hover {
+    background-color: #292828;
+    transform: translateY(-3px);
 }
